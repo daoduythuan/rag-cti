@@ -1,0 +1,12 @@
+[
+  {
+    "id": "T1059.003",
+    "name": "Windows Command Shell",
+    "description": "Adversaries may abuse command-line shells to execute commands and scripts."
+  },
+  {
+    "id": "T1203",
+    "name": "Exploitation for Client Execution",
+    "description": "Adversaries may exploit software vulnerabilities to execute code on client systems."
+  }
+]

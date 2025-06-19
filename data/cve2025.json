@@ -1,0 +1,84 @@
+{
+  "CVE_data_type": "CVE",
+  "CVE_data_format": "MITRE",
+  "CVE_data_version": "4.0",
+  "CVE_data_numberOfCVEs": "12345",
+  "CVE_data_timestamp": "2025-06-19T00:00Z",
+  "CVE_Items": [
+    {
+      "cve": {
+        "CVE_data_meta": {
+          "ID": "CVE-2025-6101",
+          "ASSIGNER": "cve@mitre.org"
+        },
+        "problemtype": {
+          "problemtype_data": [
+            {
+              "description": [
+                {
+                  "lang": "en",
+                  "value": "Buffer Overflow"
+                }
+              ]
+            }
+          ]
+        },
+        "references": {
+          "reference_data": [
+            {
+              "url": "https://security.example.com/CVE-2025-6101",
+              "name": "https://security.example.com/CVE-2025-6101",
+              "refsource": "MISC",
+              "tags": ["Patch", "Vendor Advisory"]
+            }
+          ]
+        },
+        "description": {
+          "description_data": [
+            {
+              "lang": "en",
+              "value": "A buffer overflow vulnerability in XYZ Software version 1.0 allows remote attackers to execute arbitrary code via crafted input."
+            }
+          ]
+        }
+      },
+      "configurations": {
+        "CVE_data_version": "4.0",
+        "nodes": [
+          {
+            "operator": "OR",
+            "children": [],
+            "cpe_match": [
+              {
+                "vulnerable": true,
+                "cpe23Uri": "cpe:2.3:a:vendor:product:1.0:*:*:*:*:*:*:*"
+              }
+            ]
+          }
+        ]
+      },
+      "impact": {
+        "baseMetricV3": {
+          "cvssV3": {
+            "version": "3.1",
+            "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL"
+          },
+          "exploitabilityScore": 3.9,
+          "impactScore": 5.9
+        }
+      },
+      "publishedDate": "2025-05-20T16:15Z",
+      "lastModifiedDate": "2025-05-25T10:30Z"
+    }
+  ]
+}
